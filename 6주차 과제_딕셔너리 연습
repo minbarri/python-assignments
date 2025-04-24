@@ -1,0 +1,21 @@
+python
+코드 복사
+# Q1. 학생 정보를 담은 딕셔너리를 만들어보세요.
+student = {
+    "name": "민서",
+    "age": 24,
+    "major": "AI"
+}
+
+# Q2. 전공(major)을 출력해보세요.
+print(student["major"])
+
+# Q3. 학년(grade)을 "3학년"으로 추가해보세요.
+student["grade"] = "3학년"
+
+# Q4. 나이(age)를 25로 수정해보세요.
+student["age"] = 25
+
+# Q5. 전체 딕셔너리 내용을 출력해보세요.
+print(student)
+
